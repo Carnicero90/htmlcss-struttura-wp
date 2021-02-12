@@ -50,8 +50,7 @@ header {
 }
 .big {
     width: 70%;
-    border-left: 8px solid  #0186ff;
-    border-right: 8px solid  #0186ff;
+    border-width: 10px 10px;
 
 }
 
