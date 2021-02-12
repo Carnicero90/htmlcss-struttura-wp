@@ -31,7 +31,10 @@ header {
 .bar {
     height: 60px;
 }
-
+.clearfix {
+    background-color: #0186ff;
+    padding: 2% 0;
+}
 .clearfix::after {
     content: "";
     display: table;
@@ -41,17 +44,14 @@ header {
 .col {
     float: left;
     height: 250px;
-    border-style: solid;
-    border-width: 10px 0;
-    border-color: #0186ff;
+  
 }
 .col.small {
     width: 15%;
 }
 .big {
-    width: 70%;
-    border-width: 10px 10px;
-
+    width: 66%;
+    margin: 0 2%;
 }
 
 /* END MAIN */
