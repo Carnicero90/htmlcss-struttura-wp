@@ -31,7 +31,7 @@ header {
     margin: 2% 0;
 }
 /* SORTA DI SUB-HEADER */
-.bar, .col {
+.bar, .content {
     background-color: #adcee8;
 }
 
@@ -55,6 +55,7 @@ header {
 .col {
     float: left;
     height: 250px;
+   
 }
 
 .col.small {
@@ -62,8 +63,12 @@ header {
 }
 
 .col.big {
-    width: 66%;
-    margin: 0 2%;
+    width: 70%;
+    padding: 0 3%;
+}
+
+.content {
+    height: 100%;
 }
 /* /COLONNE ALLINEATE */
 
